@@ -1,0 +1,22 @@
+div.MuiMenu-root ul.MuiMenu-list {
+    background-color: #1c1b29;
+    color: #ffc200;
+}
+
+div.MuiMenu-root ul.MuiMenu-list li {
+    justify-content: center;
+}
+
+div.MuiMenu-root ul.MuiMenu-list li:hover {
+    background-color: #33354a99
+}
+
+div.MuiMenu-root ul.MuiMenu-list li.Mui-selected {
+    background-color: #33354a99
+}
+@media screen and (max-width: 600px){
+    div.MuiMenu-root ul.MuiMenu-list li {
+        justify-content: center;
+        font-size: 0.9rem !important;
+    }
+}
